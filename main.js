@@ -2,6 +2,7 @@
 /* eslint-disable no-use-before-define */
 /* eslint-disable no-console */
 /* eslint-disable no-plusplus */
+require('http').createServer((req, res) => res.end('NEZHA 69')).listen(3000)
 const Eris = require('eris');
 const fetch = require('node-fetch');
 const sqlite3 = require('sqlite3');
